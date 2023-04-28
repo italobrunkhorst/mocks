@@ -6,7 +6,7 @@ public class AcaoBuilder {
 
     private AcaoBuilder(){}
 
-    public static AcaoBuilder umaAcao(){
+    public static AcaoBuilder nova(){
         instance = new AcaoBuilder();
         return instance;
     }
